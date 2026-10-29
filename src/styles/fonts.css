@@ -1,0 +1,45 @@
+:root {
+    /* Font family */
+    --font-family: Poppins, "Noto Sans Telugu", system-ui, sans-serif;
+
+    /* Font sizes */
+    --font-xs: 11px;
+    --font-sm: 12px;
+    --font-md: 14px;
+    --font-lg: 16px;
+    --font-xl: 18px;
+    --font-2xl: 20px;
+    --font-title: 24px;
+
+    /* Font weights */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* Line heights */
+    --line-tight: 1.2;
+    --line-normal: 1.5;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: var(--font-family);
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: inherit;
+}
+
+body {
+    font-size: var(--font-md);
+    font-weight: var(--font-normal);
+    line-height: var(--line-normal);
+}
